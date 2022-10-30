@@ -456,8 +456,13 @@ input[id="email"] {
     margin: 25px 0;
     border-radius: 12px;
     background-color: rgba(58, 134, 255, 0.2);
-    color: rgba(34, 3, 228, 1);
     border: none;
     padding: 35px;
 }
+
+input[id="email"]::placeholder {
+    color: rgba(34, 3, 228, 1);   
+}
+
+
 
