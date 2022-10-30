@@ -1,0 +1,463 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.logo {
+    float: left;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.buy-now-btn {
+    display: inline-block;
+}
+
+.buy-now-btn button {
+    color: #2203E4;
+    background-color: white;
+    border: 1px solid #2203E4;
+    padding: 10px;
+}
+
+nav {
+    text-align: end;
+}
+
+nav>ul {
+    display: inline-block;
+}
+
+
+nav li,
+nav a {
+    font-size: 21px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    display: inline-block;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+.btn {
+    padding: 12px;
+    display: inline-block;
+}
+
+#phone .btn {
+    margin-right: 20px;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn-blue {
+    background-color: #0062FF;
+    border: 1px solid #0062FF;
+    color: white;
+}
+
+.btn-white {
+    
+    border: 1px solid #575757;
+}
+
+.btn-blue>a {
+    color: white;
+}
+
+.btn-white>a {
+    color: #575757;
+}
+
+.title-text-block {
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.title-text-block>h3 {
+    color: black;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.title-text-block>p {
+    color: #575757;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.authors-occupacy {
+    color: #575757;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.author p {
+    color: #575757;
+}
+
+.authors-list>.unchecked-author>h5,
+.authors-list>.unchecked-author>h6 {
+    color: #DEA405;
+}
+
+.authors-list>.unchecked-author>h5 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.authors-list>.unchecked-author>h6 {
+    font-size: 16;
+    font-weight: 400;
+}
+
+#for-who {
+    background-color: #0062FF;
+    color: white;
+}
+
+
+.video {
+    width: 444px;
+    height: 296px;
+    background-image: url(../img/video.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    float: right;
+    padding-top: 130px;
+}
+
+#opinions {
+    background-color: #FFBE0B;
+}
+
+.opinion-overflow:first-child {
+    background-image: url(../img/overflow-left.png);
+    float: left;
+    /* width: 20%; */
+    overflow: hidden;
+}
+
+.opinion-overflow:last-child {
+    background-image: url(../img/overflow-right.png);
+    float: right;
+    /* width: 20%; */
+    overflow: hidden;
+}
+
+#phone {
+    margin-bottom: 75px;
+}
+
+#phone h2 {
+    font-size: 47px;
+    font-weight: 700;
+}
+
+#phone p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.landing-title {
+    display: inline-block;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.iphone-img {
+    float: right;
+    width: 30%;
+}
+
+.authors-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(../img/circle.png);
+    background-position: center;
+    border: 3px solid #2203E4;
+    float: left;
+    margin-right: 45px;
+}
+
+.author-info {
+    width: 60%;
+    display: inline-block;
+}
+
+.authors-list {
+    width: 20%;
+    float: right;
+    position: relative;
+}
+
+.authors-list::before {
+    content: url(../img/arrow.png);
+    position: absolute;
+    left: -20px;
+    top: 75px;
+}
+
+.social>div {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+h4.authors-name {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.author h4,
+.author h5,
+.author h6 {
+    margin: 0;
+}
+
+#authors .title-text-block {
+    margin-bottom: 35px;
+}
+
+.checked-author {
+    margin: 8px 0;
+}
+
+#authors {
+    margin-bottom: 140px;
+}
+
+#for-who .title-text-block {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+#for-who .title-text-block>h3,
+#for-who .title-text-block>p {
+    color: white;
+}
+
+.categories img {
+    float: left;
+    margin-right: 25px;
+}
+
+.students,
+.freelancers,
+.agency,
+.marketers {
+    width: 40%;
+}
+
+.students,
+.agency {
+    float: left;
+}
+
+.marketers,
+.freelancers {
+    float: right;
+}
+
+.category-row {
+    margin-bottom: 45px;
+}
+
+.categories h5 {
+    margin: 10px 0;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+#for-who button {
+    color: #0062FF;
+    background-color: white;
+    padding: 8px;
+}
+
+#for-who .i-want-it-btn {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+#demo .title-text-block {
+    margin-bottom: 55px;
+}
+
+.text {
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+}
+
+.text>h5 {
+    margin: 0;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.text>p {
+    padding-block-end: 1.1em;
+}
+
+#demo {
+    padding-bottom: 100px;
+}
+
+#opinions .title-text-block {
+    padding-top: 65px;
+    padding-bottom: 40px;
+}
+
+.opinion {
+    width: 50%;
+    background-color: white;
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 55px 25px 51px 80px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
+}
+
+.opinion-cards {
+    position: relative;
+    overflow: hidden;
+}
+
+.opinion-cards::before {
+    content: url(../img/overflow-left.png);
+    padding-right: 30px;
+    position: absolute;
+    top: -18px;
+    left: -70px;
+}
+
+.opinion-cards::after {
+    content: url(../img/overflow-right.png);
+    padding-left: 30px;
+    position: absolute;
+    top: -18px;
+    right: -60px;
+}
+
+.opinion-body h4 {
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.opinion-body h5 {
+    font-size: 21px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.opinion-body h4::after {
+    content: url(../img/stars.png);
+    padding-left: 20px;
+    position: absolute;
+}
+
+.opinion-cards {
+    padding-bottom: 65px;
+}
+
+.opinion-body {
+    position: relative;
+}
+
+.opinion-body::before {
+    position: absolute;
+    content: url(../img/faq.png);
+    left: -60px;
+    top: 40px;
+}
+
+#start-with-us .title-text-block {
+    margin-top: 90px;
+    margin-bottom: 75px;
+}
+
+.product img {
+    height: 300px;
+    float: left;
+    margin-right: 40px;
+}
+
+.reviews {
+    position: relative;
+    padding-top: 30px;
+}
+
+.reviews::before {
+    content: url(../img/stars.png);
+    position: relative;
+    top: 7px;
+}
+
+.product>h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: rgba(34, 3, 228, 1);
+}
+
+.product>p:not(.reviews) {
+    color: rgba(87, 87, 87, 1);
+}
+
+div.product {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.discount {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+.discount form>label {
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.discount input {
+    width: 500px;
+}
+
+input[id="email"] {
+    margin: 25px 0;
+    border-radius: 12px;
+    background-color: rgba(58, 134, 255, 0.2);
+    color: rgba(34, 3, 228, 1);
+    border: none;
+    padding: 35px;
+}
+
